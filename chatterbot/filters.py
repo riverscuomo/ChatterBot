@@ -1,4 +1,4 @@
-def get_recent_repeated_responses(chatbot, conversation, sample=500, threshold=1, quantity=500):
+def get_recent_repeated_responses(chatbot, conversation, sample=500, threshold=1, quantity=10):
 # def get_recent_repeated_responses(chatbot, conversation, sample=10, threshold=3, quantity=3):
     """
     A filter that eliminates possibly repetitive responses to prevent
